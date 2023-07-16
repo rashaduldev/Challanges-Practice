@@ -59,6 +59,19 @@ font-weight: 400;
     border: none;
 }
 .banner >img{
-    width: 100%;
+    /* width: 100%; */
     margin-top: 20px;
+}
+
+@media screen and (max-width:576px) {
+    .nav_title{
+        flex-direction: column;
+    }
+    .item ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .banner >img{
+        width: 100%;
+    }
 }
