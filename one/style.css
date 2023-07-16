@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   
+    background-color: aqua;
+}
+.row{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    height: 400px;
+}
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 18px;
+    margin: 18px 0px
+}
+button{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+}
+@media screen and (max-width:576px) {
+        .row{
+            flex-direction: column;
+            text-align: left;
+        }
+}
