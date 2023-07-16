@@ -186,6 +186,19 @@ margin: 40px;
     display: flex;
     justify-content: space-around;
 }
+/* Footer part */
+footer{
+    text-align: center;
+    margin: 60px 130px;
+   
+}
+footer >p{
+    background-color: #ecd5b9;
+    padding: 18px;
+    border: none;
+   border-radius: 5px;
+    font-size: 18px;
+}
 /* Respossive design */
 @media screen and (max-width:576px) {
     .nav_title{
@@ -227,6 +240,9 @@ margin: 40px;
     }
     .spon_iteam >img{
         margin-top: 25px;
+        
+    }
+    footer >p{
         
     }
     
