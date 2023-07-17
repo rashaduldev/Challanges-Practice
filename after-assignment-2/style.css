@@ -9,6 +9,7 @@ button{
     color: #fff;
     background-color: #FF900E;
     cursor: pointer;
+    border-radius: 5px;
 }
 button:hover{
     background-color: #ff220e;
