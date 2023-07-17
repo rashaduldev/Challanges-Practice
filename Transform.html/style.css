@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px solid gray;
+}
+.container:hover .bat{
+    transform: rotate(-45deg);
+    transform-origin: top right;
+}
+.bat{
+    transition: transform 1s;
+} 
+
+.ball{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 450px;
+    top: -50px;
+    transition: transform 1s ease-out 0.8s;
+}
+.container:hover .ball{
+    transform: translate(500px, -500px);
+}
