@@ -2,18 +2,22 @@
     margin: 0;
     padding: 0;
 }
-span{
+
+span {
     color: red;
 }
-button{
+
+button {
     color: #fff;
     background-color: #FF900E;
     cursor: pointer;
     border-radius: 5px;
 }
-button:hover{
+
+button:hover {
     background-color: #ff220e;
 }
+
 /* Header part start */
 .nav_title {
     display: flex;
@@ -41,10 +45,12 @@ button:hover{
     font-size: 18px;
     cursor: pointer;
 }
+
 /* banner part */
-.slide_item{
+.slide_item {
     text-align: center;
 }
+
 .slide_item h2 {
     color: var(--dark-01, #131313);
     font-family: Work Sans;
@@ -53,14 +59,16 @@ button:hover{
     font-weight: 700;
     margin: 40px 0px;
 }
-.slide_item p{
-color: var(--dark-03, #727272);
-font-family: Work Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
+
+.slide_item p {
+    color: var(--dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
-.slide_item button{
+
+.slide_item button {
     width: 180px;
     height: 64px;
     margin: 20px 0px;
@@ -69,42 +77,49 @@ font-weight: 400;
     font-size: 24px;
     border: none;
 }
-.banner >img{
+
+.banner>img {
     /* width: 100%; */
     margin-top: 20px;
 }
+
 /* banner part end */
 
 /* main part start */
-.main_container{
+.main_container {
     display: flex;
     margin: 130px 40px;
     justify-content: space-evenly;
     align-items: center;
 }
-.coloum{
+
+.coloum {
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
-    
+
 }
+
 /* .coloum >img{
     width: 70%;
 } */
 
-.coloum_two{
+.coloum_two {
     margin: 0px 50px;
     text-align: left;
     justify-content: center;
 }
-.coloum_two >h3{
+
+.coloum_two>h3 {
     font-size: 68px;
 }
-.coloum_two >p{
+
+.coloum_two>p {
     font-size: 20px;
     margin: 30px 0px;
 }
-.coloum_two >button{
+
+.coloum_two>button {
     font-size: 28px;
     border: none;
     padding: 15px;
@@ -113,60 +128,96 @@ font-weight: 400;
 }
 
 /* This is second container style */
-.snd_container{
-display: flex;
-justify-content: space-evenly;
-height: 100vh;
-margin: 40px;
+.snd_container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 40px;
 }
-.data_part{
+
+.data_part {
     width: 50%;
-    
+
 }
-.data_part >h3{
+
+.data_part>h3 {
     font-size: 45px;
     border-left: 5px solid #FF900E;
     padding-left: 25px;
     /* font-weight: 700; */
 }
-.data_part >p{
+
+.data_part>p {
     font-size: 20px;
     margin: 15px 0px;
 }
-.para{
+
+.para {
     margin: 40px;
 }
-.para >h4{
+
+.para>h4 {
     font-size: 28px;
     margin-top: 50px;
 }
-.para >p{
+
+.para>p {
     font-size: 16px;
 }
-.img_part >img{
+
+.img_part>img {
     width: 100%;
     height: 100%;
 }
+
+.badge {
+    border-radius: 8px;
+    background-color: #FF900E;
+    width: 252px;
+    height: 120px;
+    margin: 0;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    bottom: 100px;
+    left: 15px;
+}
+
+.badge h2 {
+    color: #FFF;
+    font-size: 45px;
+}
+
+.badge p {
+    color: #FFF;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
 /* Card part */
-.card_container{
+.card_container {
     margin: 120px;
 }
-.card_container >h2{
+
+.card_container>h2 {
     font-size: 45px;
     margin: 15px 0px;
 }
-.card_container >p{
+
+.card_container>p {
     font-size: 18px;
-    margin:10px 0px 50px 0px;
+    margin: 10px 0px 50px 0px;
 }
-.card_all{
+
+.card_all {
     display: flex;
     justify-content: space-around;
     margin-top: 85px;
     /* grid-template-columns: repeat(4 ,1fr); */
     /* background-color: #ff220e; */
 }
-.card{
+
+.card {
     border: 1px solid black;
     width: 150px;
     height: 150px;
@@ -178,71 +229,85 @@ margin: 40px;
 }
 
 /* Spon part */
-.spon_container{
+.spon_container {
     margin: 130px;
     text-align: center;
 }
-.spon_iteam{
+
+.spon_iteam {
     margin-top: 45px;
     display: flex;
     justify-content: space-around;
 }
+
 /* Footer part */
-footer{
+footer {
     text-align: center;
     margin: 60px 130px;
-   
+
 }
-footer >p{
+
+footer>p {
     background-color: #ecd5b9;
     padding: 18px;
     border: none;
-   border-radius: 5px;
+    border-radius: 5px;
     font-size: 18px;
 }
+
 /* Respossive design */
 @media screen and (max-width:576px) {
-    .nav_title{
+    .nav_title {
         flex-direction: column;
     }
-    .item ul{
+
+    .item ul {
         flex-direction: column;
         margin-top: 20px;
     }
-    .banner >img{
+
+    .banner>img {
         width: 100%;
     }
-    .main_container{
+
+    .main_container {
         flex-direction: column-reverse;
         /* flex-direction: row-reverse; */
 
     }
-    .coloum{
-        grid-template-columns: repeat(1,1fr);
+
+    .coloum {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .snd_container{
+
+    .snd_container {
         flex-direction: column;
         height: auto;
     }
-    .data_part{
+
+    .data_part {
         width: 100%;
     }
-    .card_all{
+
+    .card_all {
         flex-direction: column;
-        
+
     }
-    .card{
+
+    .card {
         margin-bottom: 5px;
         width: 100%;
     }
-    .spon_iteam{
+
+    .spon_iteam {
         flex-direction: column;
-     
+
     }
-    .spon_iteam >img{
+
+    .spon_iteam>img {
         margin-top: 25px;
-        
+
     }
- 
-    
+
+
 }
