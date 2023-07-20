@@ -67,6 +67,7 @@ line-height: 60px;
     }
     .colomn2{
         text-align: center;
+        align-items: center;
         margin: 0 auto;
     }
 }
