@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+         @keyframes f-ball{
+            form{
+                left:0;
+            }
+            to{
+                left: 600px;
+            }
+        }
+        .annimate{
+            width: 1200px;
+            height: 500px;
+            background-color: aqua;
+            border: 3px solid red;
+        }
+        .ball{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            border-radius: 50%;
+            position: relative;
+            animation: f-ball 2s ease-in-out 1s infinite alternate;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="annimate">
+        <div class="ball">
+
+        </div>
+    </div>
+</body>
+</html>
