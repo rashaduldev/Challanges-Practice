@@ -55,6 +55,13 @@ line-height: 60px;
     line-height: 30px; /* 166.667% */
 }
 
+/*  Card part */
+.card_all{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 2px solid red;
+   text-align: center;
+}
 
 /* responsive */
 @media screen and (max-width:576px) {
