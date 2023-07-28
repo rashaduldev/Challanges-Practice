@@ -12,3 +12,8 @@ var location="mirpur Dhaka";
 // Boolean
 var assignment=true;
 var marks=false;
+
+// 
+var bb d="dew eg"
+var 20club='fdf';
+var club34="root";
