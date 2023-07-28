@@ -9,12 +9,19 @@
 
 
 // Practice Number--2
-var mathmatics=75.25;
-var biology=65;
-var chemistry=80;
-var physics=35.45;
-var bangla=99.50;
-var totalNumber=mathmatics+biology+chemistry+physics+bangla;
-var avarageMart=totalNumber/5;
-avarageMart=avarageMart.toFixed(2);
-console.log(avarageMart);
+// var mathmatics=75.25;
+// var biology=65;
+// var chemistry=80;
+// var physics=35.45;
+// var bangla=99.50;
+// var totalNumber=mathmatics+biology+chemistry+physics+bangla;
+// var avarageMart=totalNumber/5;
+// avarageMart=avarageMart.toFixed(2);
+// console.log(avarageMart);
+
+
+// Practice number --3
+var firstV="I am going to be";
+var secondV="an awesome web developer";
+var thirdLine=firstV+" "+secondV;
+console.log(thirdLine);
