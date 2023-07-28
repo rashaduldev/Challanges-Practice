@@ -14,6 +14,9 @@ var assignment=true;
 var marks=false;
 
 // 
-var bb d="dew eg"
+var bb-d="dew eg";
+var bb_d="dew eg";
 var 20club='fdf';
 var club34="root";
+// cammelcase
+var currentHomeAddress="Dhaka";
