@@ -21,7 +21,14 @@
 
 
 // Practice number --3
-var firstV="I am going to be";
-var secondV="an awesome web developer";
-var thirdLine=firstV+" "+secondV;
-console.log(thirdLine);
+// var firstV="I am going to be";
+// var secondV="an awesome web developer";
+// var thirdLine=firstV+" "+secondV;
+// console.log(thirdLine);
+
+
+// Practice no-4
+// var number=119;
+// var divided=5;
+// var prs=number%divided;
+// console.log(prs);
