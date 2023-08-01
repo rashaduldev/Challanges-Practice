@@ -21,6 +21,19 @@
 // }
 
 // For loop
-for(var num=10;num<10;num++){
-    console.log('good this code is working');
-}
+// for(var num=0; num<10; num++){
+//     console.log('num');
+// }
+
+
+// for (var num = 10; num <= 10; num++) {
+//     console.log('num');
+//   }
+// for (var num = 10; num < 10; num++) {
+//     console.log('num');
+//   }
+  
+// for(var i=1;i<=10;i+=2){
+//     console.log(i);
+// }
+  
