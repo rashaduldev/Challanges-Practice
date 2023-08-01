@@ -11,3 +11,11 @@ while(number<5){
     // number++;
     number=number+2;
 }
+
+// Odd number
+var number=1;
+while(number<20){
+    console.log(number);
+    // number++;
+    number=number+2;
+}
