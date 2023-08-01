@@ -36,4 +36,11 @@
 // for(var i=1;i<=10;i+=2){
 //     console.log(i);
 // }
-  
+//   array and loop
+
+var numbers=[11,23,25,85,76,54,65,76];
+
+for(var i=0;i<=7;i++){
+    number=numbers[i];
+    console.log(number);
+}
