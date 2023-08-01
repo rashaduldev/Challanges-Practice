@@ -78,6 +78,25 @@
 //     num--;
 // }
 
-for(i=10;i>=1;i--){
-    console.log(i);
+// for(i=10;i>=1;i--){
+//     console.log(i);
+// }
+
+// Practice part
+// var fruits=['Apple','Banana','Orange'];
+// fruit=fruits[1];
+// fruits[1]='mango';
+// console.log(fruits);
+
+// var fruits=['Apple','Banana','Orange'];
+// fruit=fruits[1];
+// fruits[1]='mango';
+// fruits.pop();
+// fruits.push("Watermelon");
+// console.log(fruits);
+
+// practice loop
+var marks=[90,78,44,56,68,99];
+if(){
+    
 }
