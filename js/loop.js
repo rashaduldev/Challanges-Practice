@@ -96,7 +96,19 @@
 // console.log(fruits);
 
 // practice loop
-var marks=[90,78,44,56,68,99];
-if(){
-    
+// var marks=[90,78,44,56,68,99];
+// if(){
+
+// }
+
+// Largest number
+var num1=14;
+var num2=55;
+var num3=33;
+
+if(num1>num2){
+    if(num1>num3){
+        console.log(num1);
+    }
+    console.log()
 }
