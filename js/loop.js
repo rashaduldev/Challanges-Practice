@@ -102,13 +102,17 @@
 // }
 
 // Largest number
-var num1=14;
-var num2=55;
-var num3=33;
+// var num1=14;
+// var num2=55;
+// var num3=33;
 
-if(num1>num2){
-    if(num1>num3){
-        console.log(num1);
-    }
-    console.log()
-}
+// if(num1>num2){
+//     if(num1>num3){
+//         console.log(num1);
+//     }
+//     console.log()
+// }
+
+// var me={age:21,name:'c'}
+var smartphone = { brand: "iPhone", model: "13" };
+console.log(smartphone.brand);
