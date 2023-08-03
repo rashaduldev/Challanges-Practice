@@ -161,9 +161,13 @@
 // console.log();
 
 // Function quiz
-function inchToFeet(inch){ 
-    var feet = inch/12;
-    return feet; 
-}
-var int= inchToFeet(144);
-console.log(int);
+// function inchToFeet(inch){ 
+//     var feet = inch/12;
+//     return feet; 
+// }
+// const int= inchToFeet(144);
+// console.log(int);
+
+// var num=5;
+// var res=num%2==0;
+// console.log(res);
