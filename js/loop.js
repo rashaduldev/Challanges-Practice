@@ -145,3 +145,25 @@
 // }
 // console.log(mobile.price);
 
+// var shoppingCard={
+//     book:3,
+//     sunglas:7,
+//     pen:9,
+//     mouse:1,
+//     Keyboard:5,
+// }
+// var penCount=shoppingCard.pen;
+// // console.log('pen:',penCount);
+// // console.log(shoppingCard);
+// var properties=Object.keys(shoppingCard);
+// var propertyValues=Object.values(shoppingCard);
+// console.log(propertyValues,properties);
+// console.log();
+
+// Function quiz
+function inchToFeet(inch){ 
+    var feet = inch/12;
+    return feet; 
+}
+var int= inchToFeet(144);
+console.log(int);
