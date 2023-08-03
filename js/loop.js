@@ -129,16 +129,19 @@
 //     return sum;
 // }
 // console.log(fruit(11,12));
-var student={
-    id:2,
-    name:rabby,
-    class:10,
-    marks:98
-}
+// var student={
+//     id:2,
+//     name:'rabby',
+//     class:10,
+//     marks:98
+// }
 
-var mobile={
-    brand:'Iphone',
-    price:29000,
-    Storage:'64gb',
-    camera:'14mp'
-}
+// var mobile={
+//     brand:'Iphone',
+//     color:'black',
+//     price:29000,
+//     Storage:'64gb',
+//     camera:'14mp'
+// }
+// console.log(mobile.price);
+
