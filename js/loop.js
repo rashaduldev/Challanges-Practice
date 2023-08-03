@@ -123,9 +123,22 @@
 //     return "Hawa";
 //    }
 //    console.log(movie());
-function fruit(num1,num2){
-    console.log(fruit);
-    const sum=num1+num2;
-    return sum;
+// function fruit(num1,num2){
+//     console.log(fruit);
+//     const sum=num1+num2;
+//     return sum;
+// }
+// console.log(fruit(11,12));
+var student={
+    id:2,
+    name:rabby,
+    class:10,
+    marks:98
 }
-console.log(fruit(11,12));
+
+var mobile={
+    brand:'Iphone',
+    price:29000,
+    Storage:'64gb',
+    camera:'14mp'
+}
