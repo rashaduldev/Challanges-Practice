@@ -172,6 +172,6 @@
 // var res=num%2==0;
 // console.log(res);
 
-for(let i = 0;; i++){
-    console.log(i);
- }
+// for( let i = 10; i>=1; i--){
+//     console.log(i);
+//  }
