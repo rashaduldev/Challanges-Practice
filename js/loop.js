@@ -123,3 +123,9 @@
 //     return "Hawa";
 //    }
 //    console.log(movie());
+function fruit(num1,num2){
+    console.log(fruit);
+    const sum=num1+num2;
+    return sum;
+}
+console.log(fruit(11,12));
