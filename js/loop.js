@@ -187,16 +187,34 @@
 // if(false){};
 // for(let i=5;i<10;i=i+2){};
 
+// Even and ODD
+
 // console.log(7/2!==0);
 // console.log(14%4);
-function isEven(number) {
-    const remainder=number%2;
+// function isEven(number) {
+//     const remainder=number%2;
+//     console.log(remainder);
+//     if (remainder==0) {
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// const myNumber= isEven(13);
+// console.log(myNumber);
+
+function isLeepYear(year) {
+    const remainder=year%4;
     console.log(remainder);
     if (remainder==0) {
-        console.log('Number is even');
-    }
-    else{
-        console.log('Number is odd')
+        console.log("Your year is leep",year);
+    } else {
+        console.log("Your year is not leep",year);
     }
 }
-isEven(13);
+isLeepYear(2023);
+isLeepYear(2027);
+isLeepYear(2024);
+isLeepYear(2032);
+isLeepYear(2080);
