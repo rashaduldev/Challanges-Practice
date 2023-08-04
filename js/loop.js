@@ -187,4 +187,10 @@
 // if(false){};
 // for(let i=5;i<10;i=i+2){};
 
-console.log(7/2!==0);
+// console.log(7/2!==0);
+// console.log(14%4);
+function isEven(number) {
+    const remainder=number%2;
+    console.log(remainder);
+}
+isEven(14);
