@@ -223,12 +223,37 @@
 // odd and sum 
 function addSum(array) {
     // console.log(array);
+    let sum=0;
+
     for (let i = 0; i < array.length; i++) {
         const index=i;
         const element = array[i];
-        console.log(element,index);
+        sum=sum+element;
+        // console.log(element,index,sum);
         
     }
+    return sum;
 }
+ function getOddNumbersArray(array) {
+    let sum=0;
+    const odddNumber=[];
+    for (let i = 0; i < array.length; i++) {
+        const index=i;
+        const element = array[i];
+        sum=sum+element;
+        if (element%2 !==0) {
+            // console.log(index,element);
+            odddNumber.push(element);
+            // console.log(odddNumber);
+        }
+        
+        
+    }
+    return odddNumber;
+ }
+
 const myNumber=[11,21,32,45,22,44,86,67,28,34];
-addSum(myNumber);
+const odNumber= getOddNumbersArray(myNumber);
+console.log(odNumber)
+const sum= addSum(odNumber);
+console.log(sum);
