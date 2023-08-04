@@ -259,4 +259,12 @@
 // console.log(sum);
 
 
-console.log(12%2==0)
+// console.log(12%2==0)
+
+// FActorial
+let sum=1;
+for(let i=1;i<=4;i++){
+
+sum=sum*i;
+console.log(sum);
+}
