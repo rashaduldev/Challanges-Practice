@@ -186,3 +186,5 @@
 // if(item=>50){};
 // if(false){};
 // for(let i=5;i<10;i=i+2){};
+
+console.log(7/2!==0);
