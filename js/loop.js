@@ -258,3 +258,5 @@
 // const sum= addSum(odNumber);
 // console.log(sum);
 
+
+console.log(12%2==0)
