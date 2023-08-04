@@ -204,17 +204,31 @@
 // const myNumber= isEven(13);
 // console.log(myNumber);
 
-function isLeepYear(year) {
-    const remainder=year%4;
-    console.log(remainder);
-    if (remainder==0) {
-        console.log("Your year is leep",year);
-    } else {
-        console.log("Your year is not leep",year);
+// function isLeepYear(year) {
+//     const remainder=year%4;
+//     console.log(remainder);
+//     if (remainder==0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// const isMyYear= isLeepYear(2023);
+// console.log(isMyYear);
+// isLeepYear(2027);
+// isLeepYear(2024);
+// isLeepYear(2032);
+// isLeepYear(2080);
+
+// odd and sum 
+function addSum(array) {
+    // console.log(array);
+    for (let i = 0; i < array.length; i++) {
+        const index=i;
+        const element = array[i];
+        console.log(element,index);
+        
     }
 }
-isLeepYear(2023);
-isLeepYear(2027);
-isLeepYear(2024);
-isLeepYear(2032);
-isLeepYear(2080);
+const myNumber=[11,21,32,45,22,44,86,67,28,34];
+addSum(myNumber);
