@@ -18,4 +18,3 @@
 //     }
 //     const inNumber=sumOfNumbers(4);
 //     console.log(inNumber);
-var sptit=
