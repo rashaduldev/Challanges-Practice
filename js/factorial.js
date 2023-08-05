@@ -9,12 +9,13 @@
 // }
 // const fac=sumOfNumbers(4);
 // console.log(fac);
-function sumOfNumbers(number){
-    result=1;
-    for(let i=1;i<=number;i++){
-              result=result*i;
-    }
-    return result;
-    }
-    const inNumber=sumOfNumbers(4);
-    console.log(inNumber);
+// function sumOfNumbers(number){
+//     result=1;
+//     for(let i=1;i<=number;i++){
+//               result=result*i;
+//     }
+//     return result;
+//     }
+//     const inNumber=sumOfNumbers(4);
+//     console.log(inNumber);
+var sptit=
