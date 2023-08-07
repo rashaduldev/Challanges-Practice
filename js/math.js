@@ -30,8 +30,31 @@
 // const answer = Math.abs(number); 
 // console.log(answer);
 
-var a=2; 
-var b=3; 
-if(a===b){
-	console.log("“Hello”");
+// var a=2; 
+// var b=3; 
+// if(a===b){
+// 	console.log("“Hello”");
+// }
+
+var result=1;
+function factorial(number) {
+	for (let i = 1; i <=number; i++) {
+		result=result*i;
+		// console.log(result);
+		// const index=i;
+		// const element = array[i];
+
+		// console.log(index,element);
+		
+	}
+	return result;
 }
+const inNumber=factorial(4);
+console.log(inNumber);
+
+// const arrayList=[11,12,65,55,58,48,46,24,15,39]
+
+// const fout=factorial(arrayList);
+// console.log(fout);
+
+// console.log(element);
