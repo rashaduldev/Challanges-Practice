@@ -37,13 +37,10 @@ function mindGame(num) {
         return "Please provide a possitive number"
     }
     else{
-        if (condition) {
-            
-        } else {
-            
-        }
+       const res=(((num*3)+10)/2)-5;
+       return res;
     }
 }
 
-const result =mindGame(1);
+const result =mindGame(5);
 console.log(result);
