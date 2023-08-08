@@ -36,6 +36,13 @@ function mindGame(num) {
     } else if(num<=0) {
         return "Please provide a possitive number"
     }
+    else{
+        if (condition) {
+            
+        } else {
+            
+        }
+    }
 }
 
 const result =mindGame(1);
