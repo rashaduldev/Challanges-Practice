@@ -9,5 +9,5 @@ function isInteger(x) {
         }
     }
 }
-const intt=isInteger(5);
+const intt=isInteger(5.3);
 console.log(intt);
