@@ -22,7 +22,7 @@
 // var currentHomeAddress="Dhaka";
 
 // variable diclearation
-var onionPrice=20;
-var eggPrice=10;
-var total=onionPrice*eggPrice;
-console.log(total);
+// var onionPrice=20;
+// var eggPrice=10;
+// var total=onionPrice*eggPrice;
+// console.log(total);
