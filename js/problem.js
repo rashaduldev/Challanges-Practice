@@ -167,21 +167,45 @@
 
 // const output1=findAddress(objectName);
 // console.log(output1);
-function canPay(changeArray, totalDue) {
-    if (Array.isArray(changeArray)==false) {
-        return "Please provide an array";
-    }
-    else if(changeArray.length === 0){
-        return "Your array is empty , please provide an array";
-    }
-    let total = 0;
-    for (let i = 0; i <changeArray.length; i++) {
-        const element = changeArray[i];
-        total+=element;   
-    }
-    let result= total >= totalDue;
-    return result;
-}
-const res = canPay([5,5], 10);
-console.log(res);
+// 5number
+// function canPay(changeArray, totalDue) {
+//     if (Array.isArray(changeArray)==false) {
+//         return "Please provide an array";
+//     }
+//     else if(changeArray.length === 0){
+//         return "Your array is empty , please provide an array";
+//     }
+//     let total = 0;
+//     for (let i = 0; i <changeArray.length; i++) {
+//         const element = changeArray[i];
+//         total+=element;   
+//     }
+//     let result= total >= totalDue;
+//     return result;
+// }
+// const res = canPay([5,5], 10);
+// console.log(res);
 // console.log(canPay([1, 5, 5], 10)); // Output: true
+
+
+//4 number 
+
+const objectName={
+    street:10,
+    house:"15A",
+    society:"EarthPerfect"
+}
+function findAddress(obj) {
+    if (typeof obj !== "object") {
+        return "Invalid input";
+    }else if(typeof obj == "object"){
+        return `${objectName.street},${objectName.house},${objectName.society}`;
+    }
+    else if(typeof obj == "object"){
+    objectName.
+    }
+}
+
+
+const output1=findAddress(objectName);
+console.log(output1);

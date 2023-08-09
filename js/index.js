@@ -35,20 +35,20 @@
 //     if (ary[0] === ary[1]) {
 //         return "equal";
 //       }
-  
+
 //     if (typeof ary[1] === 'number' && ary[1] > 0) {
 //       return ary.sort((a, b) => b - a);
 //     }
-  
-  
-  
+
+
+
 //     return "Valid Input";
 //   }
-  
+
 //   const myArray = [3,3];
 //   const result = processArray(myArray);
 //   console.log(result);
-  
+
 
 // if (typeof ary[1] === 'number' && ary[1] > 0) {
 //     // Sort the array manually in descending order
@@ -80,18 +80,18 @@
 //        else if(arr[0]>arr[1]){
 //             return arr;
 //        }
-   
+
 //     else if (arr[0] < arr[1]) {
 //         const temp = arr[0];
 //         arr[0] = arr[1];
 //         arr[1] = temp;
-      
+
 //         return arr;
 //      }
 //      else{
 //        return "Something is wrong";
 //      }
-  
+
 // }
 // const result=sortMaker([2,2]);
 // console.log(result);
@@ -134,14 +134,31 @@
 // console.log(canPay([1, 2, 8], 10)); // Output: false
 // console.log(canPay([1, 5, 5], 10)); // Output: true
 
-const array = [1, 2, 1, 3, 9];
-let total = 0;
+// const array = [1, 2, 1, 3, 9];
+// let total = 0;
 
-for (const num of array) {
-    total += num;
+// for (const num of array) {
+//     total += num;
+// }
+
+// console.log(total); // Output: 11
+
+// 4 number answer
+const objectName = {
+    street: 10,
+    house: "15A",
+    society: "EarthPerfect"
 }
 
-console.log(total); // Output: 11
+function findAddress(addressObject) {
+    if (typeof objectName !== 'object' || objectName == null) {
+        return "Please provide an Object"
+    }
+    const street = addressObject.street || '__';
+    const house = addressObject.house || '__';
+    const society = addressObject.society || '__';
 
-
-
+    return `${street},${house},${society}`;
+}
+const address = objectName;
+console.log(findAddress(address));
