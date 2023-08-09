@@ -60,3 +60,25 @@ function sortMaker(arr) {
 // console.log(result);
 
 
+// 4
+function findAddress(obj) {
+    if (typeof obj !== "object") {
+        return "Invalid input";
+    }else if(typeof obj == "object"){
+        return `${objectName.street},${objectName.house},${objectName.society}`;
+    }
+    else if(typeof obj == "object"){
+    
+    }
+}
+const objectName={
+    street:10,
+    house:"15A",
+    society:"EarthPerfect"
+}
+
+const output1=findAddress(objectName);
+console.log(output1);
+
+
+// 5

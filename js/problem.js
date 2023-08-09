@@ -148,17 +148,21 @@
 // const result=sortMaker([2,5]);
 // console.log(result);
 
+
+function findAddress(obj) {
+    if (typeof obj !== "object") {
+        return "Invalid input";
+    }else if(typeof obj == "object"){
+        return `${objectName.street},${objectName.house},${objectName.society}`;
+    }
+    else if(typeof obj == "object"){
+    
+    }
+}
 const objectName={
     street:10,
     house:"15A",
     society:"EarthPerfect"
-}
-function findAddress(obj) {
-    if (typeof obj !== "object") {
-        return "Invalid input";
-    }else{
-        return "vallied";
-    }
 }
 
 const output1=findAddress(objectName);
