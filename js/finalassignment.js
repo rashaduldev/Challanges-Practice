@@ -56,3 +56,37 @@ function sortMaker(arr) {
 sortMaker([2,5]);
 
 
+function findAddress(addressObject) {
+    if (typeof objectName !== 'object' || objectName == null) {
+        return "Please provide an Object"
+    }
+    const street = addressObject.street || '__';
+    const house = addressObject.house || '__';
+    const society = addressObject.society || '__';
+
+    return `${street},${house},${society}`;
+}
+const objectName = {
+    street: 10,
+    house: "15A",
+    society: "EarthPerfect"
+}
+findAddress(objectName);
+
+
+function canPay(changeArray, totalDue) {
+    if (Array.isArray(changeArray)==false) {
+        return "Please provide an array";
+    }
+    else if(changeArray.length === 0){
+        return "Your array is empty , please provide an array";
+    }
+    let total = 0;
+    for (let i = 0; i <changeArray.length; i++) {
+        const element = changeArray[i];
+        total+=element;   
+    }
+    let result= total >= totalDue;
+    return result;
+}
+canPay([6,5], 10);
