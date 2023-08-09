@@ -10,21 +10,21 @@ const res = cubeNumber(4);
 // console.log(res);
 
 
-function matchFinder(string1, string2) {
-    if (typeof string1 !== "string" || typeof string2 !== "string") {
-        return "Both inputs must be strings.";
-    } else {
-        if (string1.includes(string2)) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-}
-const firstString = "Hello world";
-const secondString = "ello";
-const result = matchFinder(firstString, secondString);
-// console.log(result);
+// function matchFinder(string1, string2) {
+//     if (typeof string1 !== "string" || typeof string2 !== "string") {
+//         return "Both inputs must be strings.";
+//     } else {
+//         if (string1.includes(string2)) {
+//             return true;
+//         } else {
+//             return false;
+//         }
+//     }
+// }
+// const firstString = "Hello world";
+// const secondString = "ello";
+// const result = matchFinder(firstString, secondString);
+// // console.log(result);
 
 
 
@@ -61,24 +61,24 @@ function sortMaker(arr) {
 
 
 // 4
-function findAddress(obj) {
-    if (typeof obj !== "object") {
-        return "Invalid input";
-    }else if(typeof obj == "object"){
-        return `${objectName.street},${objectName.house},${objectName.society}`;
-    }
-    else if(typeof obj == "object"){
-    
-    }
-}
-const objectName={
-    street:10,
-    house:"15A",
-    society:"EarthPerfect"
+const objectName = {
+    street: 10,
+    house: "15A",
+    society: "EarthPerfect"
 }
 
-const output1=findAddress(objectName);
-console.log(output1);
+function findAddress(addressObject) {
+    if (typeof objectName !== 'object' || objectName == null) {
+        return "Please provide an Object"
+    }
+    const street = addressObject.street || '__';
+    const house = addressObject.house || '__';
+    const society = addressObject.society || '__';
+
+    return `${street},${house},${society}`;
+}
+const address = objectName;
+console.log(findAddress(address));
 
 
 // 5

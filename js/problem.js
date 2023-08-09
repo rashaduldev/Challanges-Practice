@@ -190,22 +190,22 @@
 
 //4 number 
 
-const objectName={
-    street:10,
-    house:"15A",
-    society:"EarthPerfect"
-}
-function findAddress(obj) {
-    if (typeof obj !== "object") {
-        return "Invalid input";
-    }else if(typeof obj == "object"){
-        return `${objectName.street},${objectName.house},${objectName.society}`;
-    }
-    else if(typeof obj == "object"){
-    objectName.
-    }
-}
+// const objectName={
+//     street:10,
+//     house:"15A",
+//     society:"EarthPerfect"
+// }
+// function findAddress(obj) {
+//     if (typeof obj !== "object") {
+//         return "Invalid input";
+//     }else if(typeof obj == "object"){
+//         return `${objectName.street},${objectName.house},${objectName.society}`;
+//     }
+//     else if(typeof obj == "object"){
+//     objectName.
+//     }
+// }
 
 
-const output1=findAddress(objectName);
-console.log(output1);
+// const output1=findAddress(objectName);
+// console.log(output1);
