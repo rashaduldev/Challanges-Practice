@@ -125,7 +125,7 @@
 //       if (arr[0] === arr[1]) {
 //           return "equal";
 //         }
-    
+
 //      else if (arr[1] > 0) {
 //         // Sort the array manually in descending order
 //         for (let i = 0; i < arr.length - 1; i++) {
@@ -143,28 +143,45 @@
 //       else{
 //         return "Something is wrong";
 //       }
-   
+
 // }
 // const result=sortMaker([2,5]);
 // console.log(result);
 
 
-function findAddress(obj) {
-    if (typeof obj !== "object") {
-        return "Invalid input";
-    }else if(typeof obj == "object"){
-        return `${objectName.street},${objectName.house},${objectName.society}`;
-    }
-    else if(typeof obj == "object"){
-    
-    }
-}
-const objectName={
-    street:10,
-    house:"15A",
-    society:"EarthPerfect"
-}
+// function findAddress(obj) {
+//     if (typeof obj !== "object") {
+//         return "Invalid input";
+//     }else if(typeof obj == "object"){
+//         return `${objectName.street},${objectName.house},${objectName.society}`;
+//     }
+//     else if(typeof obj == "object"){
 
-const output1=findAddress(objectName);
-console.log(output1);
-    
+//     }
+// }
+// const objectName={
+//     street:10,
+//     house:"15A",
+//     society:"EarthPerfect"
+// }
+
+// const output1=findAddress(objectName);
+// console.log(output1);
+function canPay(changeArray, totalDue) {
+    if (Array.isArray(changeArray)==false) {
+        return "Please provide an array";
+    }
+    else if(changeArray.length === 0){
+        return "Your array is empty , please provide an array";
+    }
+    let total = 0;
+    for (let i = 0; i <changeArray.length; i++) {
+        const element = changeArray[i];
+        total+=element;   
+    }
+    let result= total >= totalDue;
+    return result;
+}
+const res = canPay([5,5], 10);
+console.log(res);
+// console.log(canPay([1, 5, 5], 10)); // Output: true

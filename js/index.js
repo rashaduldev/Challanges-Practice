@@ -95,32 +95,53 @@
 // }
 // const result=sortMaker([2,2]);
 // console.log(result);
-function findAddress(addressObject) {
-    if (typeof addressObject !== "object" || addressObject === null) {
-        return "Invalid input";
-    }
+// function findAddress(addressObject) {
+//     if (typeof addressObject !== "object" || addressObject === null) {
+//         return "Invalid input";
+//     }
 
-    const street = addressObject.street || "__";
-    const house = addressObject.house || "__";
-    const society = addressObject.society || "__";
+//     const street = addressObject.street || "__";
+//     const house = addressObject.house || "__";
+//     const society = addressObject.society || "__";
 
-    return `${street},${house},${society}`;
+//     return `${street},${house},${society}`;
+// }
+
+// // ফাংশন টেস্ট
+// const address1 = { street: 10, house: "15A", society: "Earth Perfect" };
+// const output1 = findAddress(address1);
+// console.log(output1);  // Output: 10,15A,Earth Perfect
+
+// const address2 = { street: 10, society: "Earth Perfect" };
+// const output2 = findAddress(address2);
+// console.log(output2);  // Output: 10,__,Earth Perfect
+
+// const address3 = { street: 10 };
+// const output3 = findAddress(address3);
+// console.log(output3);  // Output: 10,__,__ 
+
+// const invalidInput = "not an object";
+// const invalidOutput = findAddress(invalidInput);
+// console.log(invalidOutput);  // Output: Invalid input
+
+
+// function canPay(changeArray, totalDue) {
+//     const sumOfPrices = changeArray.reduce((sum, price) => sum + price, 0);
+//     return totalDue >= sumOfPrices;
+// }
+
+// // Example usage:
+// console.log(canPay([1, 2, 8], 10)); // Output: false
+// console.log(canPay([1, 5, 5], 10)); // Output: true
+
+const array = [1, 2, 1, 3, 9];
+let total = 0;
+
+for (const num of array) {
+    total += num;
 }
 
-// ফাংশন টেস্ট
-const address1 = { street: 10, house: "15A", society: "Earth Perfect" };
-const output1 = findAddress(address1);
-console.log(output1);  // Output: 10,15A,Earth Perfect
+console.log(total); // Output: 11
 
-const address2 = { street: 10, society: "Earth Perfect" };
-const output2 = findAddress(address2);
-console.log(output2);  // Output: 10,__,Earth Perfect
 
-const address3 = { street: 10 };
-const output3 = findAddress(address3);
-console.log(output3);  // Output: 10,__,__ 
-
-const invalidInput = "not an object";
-const invalidOutput = findAddress(invalidInput);
-console.log(invalidOutput);  // Output: Invalid input
 

@@ -82,3 +82,20 @@ console.log(output1);
 
 
 // 5
+function canPay(changeArray, totalDue) {
+    if (Array.isArray(changeArray)==false) {
+        return "Please provide an array";
+    }
+    else if(changeArray.length === 0){
+        return "Your array is empty , please provide an array";
+    }
+    let total = 0;
+    for (let i = 0; i <changeArray.length; i++) {
+        const element = changeArray[i];
+        total+=element;   
+    }
+    let result= total >= totalDue;
+    return result;
+}
+const restt = canPay([5,6], 10);
+console.log(restt);
