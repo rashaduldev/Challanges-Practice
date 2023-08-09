@@ -113,18 +113,54 @@
 // const invalidResult = matchFinder(invalidInput1, invalidInput2);
 // console.log(invalidResult);  // Output: Both inputs should be strings.
 
-function sortMaker(arr) {
-     if (!Array.isArray(arr)) {
-        return "Please Provide an array";
-    }
-    for (let i = 0; i < arr.length; i++) {
-        if (typeof arr[i] !== "number" || arr[i]<0) {
-            return "Invalid Input";
-        }else{
-            return 'Vallied';
-        }
-    }
+// function sortMaker(arr) {
+//      if (!Array.isArray(arr)) {
+//         return "Please Provide an array";
+//     }
+//     for (let i = 0; i < arr.length; i++) {
+//         if (typeof arr[i] !== "number" || arr[i]<0) {
+//             return "Invalid Input";
+//         }
+//     }
+//       if (arr[0] === arr[1]) {
+//           return "equal";
+//         }
+    
+//      else if (arr[1] > 0) {
+//         // Sort the array manually in descending order
+//         for (let i = 0; i < arr.length - 1; i++) {
+//           for (let j = 0; j < arr.length - i - 1; j++) {
+//             if (arr[j] < arr[j + 1]) {
+//               // Swap the elements
+//               const temp = arr[j];
+//               arr[j] = arr[j + 1];
+//               arr[j + 1] = temp;
+//             }
+//           }
+//         }
+//         return arr;
+//       }
+//       else{
+//         return "Something is wrong";
+//       }
    
+// }
+// const result=sortMaker([2,5]);
+// console.log(result);
+
+const objectName={
+    street:10,
+    house:"15A",
+    society:"EarthPerfect"
 }
-const result=sortMaker([4,5]);
-console.log(result);
+function findAddress(obj) {
+    if (typeof obj !== "object") {
+        return "Invalid input";
+    }else{
+        return "vallied";
+    }
+}
+
+const output1=findAddress(objectName);
+console.log(output1);
+    

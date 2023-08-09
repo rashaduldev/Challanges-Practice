@@ -26,3 +26,101 @@
 // var eggPrice=10;
 // var total=onionPrice*eggPrice;
 // console.log(total);
+
+
+// function processArray(ary) {
+//     if (ary.length < 2) {
+//       return "This array will always contain two elements.";
+//     }
+//     if (ary[0] === ary[1]) {
+//         return "equal";
+//       }
+  
+//     if (typeof ary[1] === 'number' && ary[1] > 0) {
+//       return ary.sort((a, b) => b - a);
+//     }
+  
+  
+  
+//     return "Valid Input";
+//   }
+  
+//   const myArray = [3,3];
+//   const result = processArray(myArray);
+//   console.log(result);
+  
+
+// if (typeof ary[1] === 'number' && ary[1] > 0) {
+//     // Sort the array manually in descending order
+//     for (let i = 0; i < ary.length - 1; i++) {
+//       for (let j = 0; j < ary.length - i - 1; j++) {
+//         if (ary[j] < ary[j + 1]) {
+//           // Swap the elements
+//           const temp = ary[j];
+//           ary[j] = ary[j + 1];
+//           ary[j + 1] = temp;
+//         }
+//       }
+//     }
+//     return ary;
+//   }
+
+// function sortMaker(arr) {
+//     if (!Array.isArray(arr)) {
+//        return "Please Provide an array";
+//    }
+//    for (let i = 0; i < arr.length; i++) {
+//        if (typeof arr[i] !== "number" || arr[i]<0) {
+//            return "Invalid Input";
+//        }
+//    }
+//      if (arr[0] === arr[1]) {
+//          return "equal";
+//        }
+//        else if(arr[0]>arr[1]){
+//             return arr;
+//        }
+   
+//     else if (arr[0] < arr[1]) {
+//         const temp = arr[0];
+//         arr[0] = arr[1];
+//         arr[1] = temp;
+      
+//         return arr;
+//      }
+//      else{
+//        return "Something is wrong";
+//      }
+  
+// }
+// const result=sortMaker([2,2]);
+// console.log(result);
+function findAddress(addressObject) {
+    if (typeof addressObject !== "object" || addressObject === null) {
+        return "Invalid input";
+    }
+
+    const street = addressObject.street || "__";
+    const house = addressObject.house || "__";
+    const society = addressObject.society || "__";
+
+    return `${street},${house},${society}`;
+}
+
+// ফাংশন টেস্ট
+const address1 = { street: 10, house: "15A", society: "Earth Perfect" };
+const output1 = findAddress(address1);
+console.log(output1);  // Output: 10,15A,Earth Perfect
+
+const address2 = { street: 10, society: "Earth Perfect" };
+const output2 = findAddress(address2);
+console.log(output2);  // Output: 10,__,Earth Perfect
+
+const address3 = { street: 10 };
+const output3 = findAddress(address3);
+console.log(output3);  // Output: 10,__,__ 
+
+const invalidInput = "not an object";
+const invalidOutput = findAddress(invalidInput);
+console.log(invalidOutput);  // Output: Invalid input
+
