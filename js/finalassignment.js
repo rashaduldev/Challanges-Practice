@@ -84,4 +84,4 @@ function canPay(changeArray, totalDue) {
     let result = total >= totalDue;
     return result;
 }
-canPay([6, 5], 10);
+console.log(canPay([6, 2], 10));
