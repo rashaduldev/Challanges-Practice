@@ -85,3 +85,7 @@ function canPay(changeArray, totalDue) {
     return result;
 }
 console.log(canPay([6, 2], 10));
+
+if (a!=null) {
+    
+}
