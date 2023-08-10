@@ -235,6 +235,6 @@
 //    const b=25;
 //    console.log(a.toString()===b);
 // console.log("123" + 123);
-let a="hi"
-let b="there"
-console.log(a+b)
+// let a="hi"
+// let b="there"
+// console.log(a+b)
