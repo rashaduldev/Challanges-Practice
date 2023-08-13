@@ -26,13 +26,30 @@
             <li>hello</li>
             <li>bye Bye</li>
         </ul>
-    </section>
-    <section>
+    </section>  
+    <section  id="okey">
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>hi</li>
+            <li>hello</li>
+            <li>bye Bye</li>
         </ul>
     </section>
+
+    <script>
+        const allSections=document.getElementsByTagName('section');
+        for (const sec of allSections) {
+            // console.log(sec.innerText);
+            sec.style.border='2px solid red';
+            sec.style.margin='10px';
+            // sec.style.backgroundColor='gray';
+        }
+
+        const spId=document.getElementById('okey')
+        spId.style.backgroundColor='red';
+        // console.log(spId.innerText);
+        for (const ok of spId) {
+            ok.style.backgroundColor='red';
+        }
+    </script>
 </body>
 </html>
