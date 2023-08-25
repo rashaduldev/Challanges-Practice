@@ -11,7 +11,9 @@
 // const twoPeramiter=(a,b=5)=>(a+b);
 // const onePera=twoPeramiter(3);
 // console.log(onePera);
-
+const arrayNew=number=>(number[1]);
+const newArray=[1,2,3,4,5]
+console.log(newArray);
 
 
 
