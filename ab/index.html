@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div>
+        <input id="inpo" class="w-28 h-8" style="border: 1px solid black;" type="text" placeholder="Input">
+   <button id="inpoButton" class="btn btn-sm btn-success">Submit</button>
+    </div>
+    <div id="insart">
+
+    </div>
+    <div></div>
+    <div></div>
+
+    <script>
+        const inpoButton=document.getElementById('inpoButton');
+        const inpo=document.getElementById('inpo');
+        const insart=document.getElementById('insart');
+        inpoButton.addEventListener('click',function () {
+           const newInpo= inpo.value;
+           console.log(newInpo);
+           const p=document.createElement('p');
+           p.innerText=newInpo;
+           insart.appendChild(p);
+           inpo.value='';
+
+        })
+    </script>
+</body>
+</html>
