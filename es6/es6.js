@@ -33,8 +33,43 @@
 //    } else {
 //     console.log("Inside else");
 //    }
-function work(x, y = 4) {
-    return x + y;
-   }
-   console.log(work(32));
+// function work(x, y = 4) {
+//     return x + y;
+//    }
+//    console.log(work(32));
+
+// function filterEvenLengthStrings(inputArray) {
+//     const resultArray = [];
+  
+//     for (let i = 0; i < inputArray.length; i++) {
+//       if (inputArray[i].length % 2 === 0) {
+//         resultArray.push(inputArray[i]);
+//       }
+//     }
+  
+//     return resultArray;
+//   }
+  
+//   const inputArray = ["apple", "banana", "pear", "grapes", "kiwi"];
+//   const evenLengthStrings = filterEvenLengthStrings(inputArray);
+//   console.log(evenLengthStrings);
+
+
+function arrayFunction(arrayAll) {
+    const resultArray=[];
+    for (let i = 0; i < arrayAll.length; i++) {
+        const element = arrayAll[i];
+        if (element.length%2===0) {
+            resultArray.push(arrayAll[i])
+        }
+        // console.log(element);
+        
+    }
+    return resultArray;
+
+}
+const arrayAll=['Alamin' ,'Rahim','Karim','Jabbar','Sultan'];
+const printArray=arrayFunction(arrayAll);
+console.log(printArray);
+  
 
