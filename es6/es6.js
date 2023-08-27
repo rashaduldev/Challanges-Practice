@@ -80,12 +80,15 @@
 // }
 // console.log(results);
 
-const arrayOld=[4,5,6,7,8];
+// const arrayOld=[4,5,6,7,8];
 
-const arrayNew=arrayOld.map(n=>n*2);
-console.log(arrayNew);
-
-
+// const arrayNew=arrayOld.map(n=>n*2);
+// console.log(arrayNew);
+// function min(nums) { return Math.min(nums) }
+// console.log(min( 1,3,2 ));
+const nums = [1,2,3,4,5];
+let output = nums.filter(n => n%2==1);
+console.log(output);
 
 
 
