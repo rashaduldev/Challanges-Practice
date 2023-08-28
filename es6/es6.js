@@ -93,8 +93,9 @@
 // nums.forEach((p,i,a)=>console.log(p*i,i,a))
 
 const object={name:'Rashadul',age:24,address:'Rangpur'};
-const {age,...rest}=object;
-console.log(rest);
+console.log(object['address']);
+// const {age,...rest}=object;
+// console.log(rest);
 
 
 
