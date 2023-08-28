@@ -86,13 +86,15 @@
 // console.log(arrayNew);
 // function min(nums) { return Math.min(nums) }
 // console.log(min( 1,3,2 ));
-const nums = [1,2,3,4,5];
-let output = nums.filter(n => n%2==1);
-console.log(output);
+// const nums = [1,2,3,4,5];
+// let output = nums.filter(n => n%2==1);
+// console.log(output);
+// const nums = [1,2,3,4,5];
+// nums.forEach((p,i,a)=>console.log(p*i,i,a))
 
-
-
-
+const object={name:'Rashadul',age:24,address:'Rangpur'};
+const {age,...rest}=object;
+console.log(rest);
 
 
 
