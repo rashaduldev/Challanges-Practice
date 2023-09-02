@@ -92,12 +92,13 @@
 // const nums = [1,2,3,4,5];
 // nums.forEach((p,i,a)=>console.log(p*i,i,a))
 
-const object={name:'Rashadul',age:24,address:'Rangpur'};
-console.log(object['address']);
+// const object={name:'Rashadul',age:24,address:'Rangpur'};
+// console.log(object['address']);
 // const {age,...rest}=object;
 // console.log(rest);
 
-
+const stuInfo = JSON.stringify({ name: "James", roll: 3 }); 
+console.log(stuInfo.name);
 
 
 
