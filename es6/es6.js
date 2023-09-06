@@ -97,8 +97,13 @@
 // const {age,...rest}=object;
 // console.log(rest);
 
-const stuInfo = JSON.stringify({ name: "James", roll: 3 }); 
-console.log(stuInfo.name);
+// const stuInfo = JSON.stringify({ name: "James", roll: 3 }); 
+// console.log(stuInfo.name);
+
+// const name = 'Hero';
+// const age = 34;
+// const person = {name, age};
+//  console.log(person);
 
 
 
