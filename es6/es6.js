@@ -105,6 +105,20 @@
 // const person = {name, age};
 //  console.log(person);
 
+// const person = { name : "Babe" };
+// console.log(person[name]);
+
+// const person={
+//     name:"rabby",
+//     country:"bangladesh",
+//     age:1971
+// }
+// const {name, country, age} = {person};
+// console.log(person);
+
+const adventurer = { name: 'Alice',cat: {name: 'Lucy'} };
+const ratName = adventurer?.cat?.name;
+console.log(ratName);
 
 
 
